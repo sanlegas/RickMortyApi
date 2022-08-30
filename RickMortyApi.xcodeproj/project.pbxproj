@@ -7,25 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F3C3AA628B49A8F00F66A6C /* MainModuleContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3C3AA128B49A8F00F66A6C /* MainModuleContract.swift */; };
+		7F3C3AA728B49A8F00F66A6C /* MainModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3C3AA228B49A8F00F66A6C /* MainModulePresenter.swift */; };
+		7F3C3AA828B49A8F00F66A6C /* MainModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3C3AA328B49A8F00F66A6C /* MainModuleRouter.swift */; };
+		7F3C3AAA28B49A8F00F66A6C /* MainModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3C3AA528B49A8F00F66A6C /* MainModuleInteractor.swift */; };
+		7F3C3AAE28B4A02400F66A6C /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3C3AAD28B4A02400F66A6C /* APIManager.swift */; };
+		7F3C3AB028B4A12A00F66A6C /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3C3AAF28B4A12A00F66A6C /* APIClient.swift */; };
+		7F3C3AB328B4A48200F66A6C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7F3C3AB228B4A48200F66A6C /* Alamofire */; };
+		7F3C3AB628B4A62500F66A6C /* ObjectMapper in Frameworks */ = {isa = PBXBuildFile; productRef = 7F3C3AB528B4A62500F66A6C /* ObjectMapper */; };
+		7F3C3AB928B7614200F66A6C /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3C3AB828B7614200F66A6C /* Character.swift */; };
 		7F43FD3E28AB3788000F0CCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F43FD3D28AB3788000F0CCB /* AppDelegate.swift */; };
 		7F43FD4028AB3788000F0CCB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F43FD3F28AB3788000F0CCB /* SceneDelegate.swift */; };
 		7F43FD4228AB3788000F0CCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F43FD4128AB3788000F0CCB /* ViewController.swift */; };
-		7F43FD4528AB3788000F0CCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F43FD4328AB3788000F0CCB /* Main.storyboard */; };
 		7F43FD4828AB3788000F0CCB /* RickMortyApi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F43FD4628AB3788000F0CCB /* RickMortyApi.xcdatamodeld */; };
 		7F43FD4A28AB3788000F0CCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F43FD4928AB3788000F0CCB /* Assets.xcassets */; };
 		7F43FD4D28AB3788000F0CCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F43FD4B28AB3788000F0CCB /* LaunchScreen.storyboard */; };
+		7F43FD5528ACB3CB000F0CCB /* SubclassedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F43FD5428ACB3CB000F0CCB /* SubclassedCollectionViewCell.swift */; };
+		7FB76E7D28BA5EAA00CC9045 /* ResponseCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB76E7C28BA5EAA00CC9045 /* ResponseCharacters.swift */; };
+		7FB76E7F28BD8FDE00CC9045 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB76E7E28BD8FDE00CC9045 /* Episode.swift */; };
+		7FB76E8128BDBC0F00CC9045 /* NetworkUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB76E8028BDBC0F00CC9045 /* NetworkUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F3C3AA128B49A8F00F66A6C /* MainModuleContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModuleContract.swift; sourceTree = "<group>"; };
+		7F3C3AA228B49A8F00F66A6C /* MainModulePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModulePresenter.swift; sourceTree = "<group>"; };
+		7F3C3AA328B49A8F00F66A6C /* MainModuleRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModuleRouter.swift; sourceTree = "<group>"; };
+		7F3C3AA528B49A8F00F66A6C /* MainModuleInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModuleInteractor.swift; sourceTree = "<group>"; };
+		7F3C3AAD28B4A02400F66A6C /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		7F3C3AAF28B4A12A00F66A6C /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		7F3C3AB828B7614200F66A6C /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		7F43FD3A28AB3788000F0CCB /* RickMortyApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickMortyApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F43FD3D28AB3788000F0CCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F43FD3F28AB3788000F0CCB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7F43FD4128AB3788000F0CCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7F43FD4428AB3788000F0CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F43FD4728AB3788000F0CCB /* RickMortyApi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RickMortyApi.xcdatamodel; sourceTree = "<group>"; };
 		7F43FD4928AB3788000F0CCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F43FD4C28AB3788000F0CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F43FD4E28AB3788000F0CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F43FD5428ACB3CB000F0CCB /* SubclassedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubclassedCollectionViewCell.swift; sourceTree = "<group>"; };
+		7FB76E7C28BA5EAA00CC9045 /* ResponseCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseCharacters.swift; sourceTree = "<group>"; };
+		7FB76E7E28BD8FDE00CC9045 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		7FB76E8028BDBC0F00CC9045 /* NetworkUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,12 +55,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F3C3AB628B4A62500F66A6C /* ObjectMapper in Frameworks */,
+				7F3C3AB328B4A48200F66A6C /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F3C3A9328B49A1700F66A6C /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				7F3C3A9428B49A2000F66A6C /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		7F3C3A9428B49A2000F66A6C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7F43FD4128AB3788000F0CCB /* ViewController.swift */,
+				7F43FD5428ACB3CB000F0CCB /* SubclassedCollectionViewCell.swift */,
+				7F3C3AA128B49A8F00F66A6C /* MainModuleContract.swift */,
+				7F3C3AA228B49A8F00F66A6C /* MainModulePresenter.swift */,
+				7F3C3AA328B49A8F00F66A6C /* MainModuleRouter.swift */,
+				7F3C3AA528B49A8F00F66A6C /* MainModuleInteractor.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7F3C3AAC28B4A00F00F66A6C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				7F3C3AAD28B4A02400F66A6C /* APIManager.swift */,
+				7F3C3AAF28B4A12A00F66A6C /* APIClient.swift */,
+				7FB76E8028BDBC0F00CC9045 /* NetworkUtility.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		7F3C3AB728B7612F00F66A6C /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				7F3C3AB828B7614200F66A6C /* Character.swift */,
+				7FB76E7C28BA5EAA00CC9045 /* ResponseCharacters.swift */,
+				7FB76E7E28BD8FDE00CC9045 /* Episode.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
 		7F43FD3128AB3788000F0CCB = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +123,11 @@
 		7F43FD3C28AB3788000F0CCB /* RickMortyApi */ = {
 			isa = PBXGroup;
 			children = (
+				7F3C3AB728B7612F00F66A6C /* Entity */,
+				7F3C3AAC28B4A00F00F66A6C /* Managers */,
+				7F3C3A9328B49A1700F66A6C /* Modules */,
 				7F43FD3D28AB3788000F0CCB /* AppDelegate.swift */,
 				7F43FD3F28AB3788000F0CCB /* SceneDelegate.swift */,
-				7F43FD4128AB3788000F0CCB /* ViewController.swift */,
-				7F43FD4328AB3788000F0CCB /* Main.storyboard */,
 				7F43FD4928AB3788000F0CCB /* Assets.xcassets */,
 				7F43FD4B28AB3788000F0CCB /* LaunchScreen.storyboard */,
 				7F43FD4E28AB3788000F0CCB /* Info.plist */,
@@ -86,6 +152,10 @@
 			dependencies = (
 			);
 			name = RickMortyApi;
+			packageProductDependencies = (
+				7F3C3AB228B4A48200F66A6C /* Alamofire */,
+				7F3C3AB528B4A62500F66A6C /* ObjectMapper */,
+			);
 			productName = RickMortyApi;
 			productReference = 7F43FD3A28AB3788000F0CCB /* RickMortyApi.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +184,10 @@
 				Base,
 			);
 			mainGroup = 7F43FD3128AB3788000F0CCB;
+			packageReferences = (
+				7F3C3AB128B4A48200F66A6C /* XCRemoteSwiftPackageReference "Alamofire" */,
+				7F3C3AB428B4A62500F66A6C /* XCRemoteSwiftPackageReference "ObjectMapper" */,
+			);
 			productRefGroup = 7F43FD3B28AB3788000F0CCB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -130,7 +204,6 @@
 			files = (
 				7F43FD4D28AB3788000F0CCB /* LaunchScreen.storyboard in Resources */,
 				7F43FD4A28AB3788000F0CCB /* Assets.xcassets in Resources */,
-				7F43FD4528AB3788000F0CCB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +214,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F3C3AB928B7614200F66A6C /* Character.swift in Sources */,
+				7F43FD5528ACB3CB000F0CCB /* SubclassedCollectionViewCell.swift in Sources */,
 				7F43FD4228AB3788000F0CCB /* ViewController.swift in Sources */,
+				7F3C3AAA28B49A8F00F66A6C /* MainModuleInteractor.swift in Sources */,
+				7F3C3AAE28B4A02400F66A6C /* APIManager.swift in Sources */,
+				7F3C3AA628B49A8F00F66A6C /* MainModuleContract.swift in Sources */,
 				7F43FD3E28AB3788000F0CCB /* AppDelegate.swift in Sources */,
 				7F43FD4028AB3788000F0CCB /* SceneDelegate.swift in Sources */,
+				7F3C3AA828B49A8F00F66A6C /* MainModuleRouter.swift in Sources */,
+				7FB76E7D28BA5EAA00CC9045 /* ResponseCharacters.swift in Sources */,
+				7F3C3AA728B49A8F00F66A6C /* MainModulePresenter.swift in Sources */,
 				7F43FD4828AB3788000F0CCB /* RickMortyApi.xcdatamodeld in Sources */,
+				7FB76E8128BDBC0F00CC9045 /* NetworkUtility.swift in Sources */,
+				7FB76E7F28BD8FDE00CC9045 /* Episode.swift in Sources */,
+				7F3C3AB028B4A12A00F66A6C /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7F43FD4328AB3788000F0CCB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7F43FD4428AB3788000F0CCB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7F43FD4B28AB3788000F0CCB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +372,6 @@
 				INFOPLIST_FILE = RickMortyApi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,7 +399,6 @@
 				INFOPLIST_FILE = RickMortyApi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -362,6 +436,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7F3C3AB128B4A48200F66A6C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		7F3C3AB428B4A62500F66A6C /* XCRemoteSwiftPackageReference "ObjectMapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tristanhimmelman/ObjectMapper.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7F3C3AB228B4A48200F66A6C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F3C3AB128B4A48200F66A6C /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		7F3C3AB528B4A62500F66A6C /* ObjectMapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F3C3AB428B4A62500F66A6C /* XCRemoteSwiftPackageReference "ObjectMapper" */;
+			productName = ObjectMapper;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		7F43FD4628AB3788000F0CCB /* RickMortyApi.xcdatamodeld */ = {
